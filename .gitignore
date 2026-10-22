@@ -1,0 +1,49 @@
+# Maven and IDE build output
+target/
+bin/
+*.class
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+*.iml
+
+# Local logs, temporary files and OS metadata
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Known generated root captures; do not ignore arbitrary PCAP fixtures
+/output.pcap
+/phase*-*.pcap
+/invalid_test.pcap
+/unsupported-linktype.pcap
+/api-filtered.pcap
+/docker-filtered.pcap
+/filtered.pcap
+/filter-headers.txt
+/options.json
+/demo-options.json
+!/test_dpi.pcap
+
+# Private local configuration and key material
+.env
+.env.*
+!.env.example
+.aws/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Internal preparation records (not portfolio documentation)
+/.local/
+/docs/CLEANUP_VERIFICATION.md

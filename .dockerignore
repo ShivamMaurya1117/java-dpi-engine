@@ -1,0 +1,23 @@
+# Allow only the reactor inputs; excludes credentials, C++, logs and local outputs.
+**
+!pom.xml
+!test_dpi.pcap
+!dpi-engine-java/
+!dpi-engine-java/pom.xml
+!dpi-engine-java/src/
+!dpi-engine-java/src/**
+!dpi-engine-api/
+!dpi-engine-api/pom.xml
+!dpi-engine-api/src/
+!dpi-engine-api/src/**
+**/target/
+**/bin/
+**/.git/
+**/.idea/
+**/.vscode/
+**/*.log
+**/*.pcap
+!test_dpi.pcap
+**/.env*
+**/*.key
+**/*.pem
